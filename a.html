@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="b.css">
+</head>
+<body>
+    
+    <div>
+        <h1>Main</h1>
+        <button class="first">click</button>
+
+        <h2>Honest is the best policy</h2>
+
+        <button class="second">click now</button>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil harum eius ducimus labore eligendi, fugiat iure voluptates, sit aspernatur, recusandae molestiae dignissimos accusamus quam earum iusto. Itaque, nesciunt magnam! Quibusdam.</p>
+
+        <button id="third">don't click</button>
+
+
+        <ul>
+            <li>abc</li>
+            <li>abc</li>
+            <li>abc</li>
+            <li>abc</li>
+        </ul>
+
+        <button id="fourth">click here</button>
+
+          <button id="fifth">CLICK</button>
+        
+
+    </div>
+
+    <div class="two">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur natus saepe consectetur excepturi quod magnam ex accusamus nihil, ea vitae corrupti, iure unde, quas eveniet rerum quasi officia? Ducimus, labore.
+        Animi veritatis excepturi nesciunt porro. Quisquam, temporibus excepturi nobis inventore placeat quia, non aliquid hic earum maxime mollitia nemo repudiandae repellendus, et voluptatem. Repudiandae, laudantium enim cumque iure porro magnam?
+        Iste officiis illo perspiciatis nesciunt, quisquam blanditiis, aliquid animi eligendi eaque, quidem accusamus placeat nostrum quasi quis ab. Pariatur, laboriosam. Eligendi, molestiae ullam sequi dolor odit quidem quos explicabo accusamus.
+        Facilis voluptatum quisquam iusto in. Quidem deleniti autem alias voluptatum officia aperiam incidunt? Nam nostrum, modi et molestias non, ipsam fuga quaerat ea quae repudiandae quia quisquam. Necessitatibus, laudantium nemo.
+        Quibusdam recusandae ipsa voluptas alias est ad dicta corrupti in consectetur. Laborum dolorum dolores et aut consectetur placeat amet perspiciatis. Magni illo ea tempora omnis accusantium iusto perspiciatis obcaecati maxime!
+        Vel corporis odit ut ad, pariatur reprehenderit perspiciatis porro incidunt natus ab nemo enim officiis itaque illo quae magni! Labore facilis distinctio vitae voluptates odit quidem perspiciatis nisi soluta ipsum.
+
+      
+
+        
+
+    </div>
+<div>
+  <button class="dot">abcd</button>
+</div>
+
+
+   <div class="three">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur natus saepe consectetur excepturi quod magnam ex accusamus nihil, ea vitae corrupti, iure unde, quas eveniet rerum quasi officia? Ducimus, labore.
+        Animi veritatis excepturi nesciunt porro. Quisquam, temporibus excepturi nobis inventore placeat quia, non aliquid hic earum maxime mollitia nemo repudiandae repellendus, et voluptatem. Repudiandae, laudantium enim cumque iure porro magnam?
+        Iste officiis illo perspiciatis nesciunt, quisquam blanditiis, aliquid animi eligendi eaque, quidem accusamus placeat nostrum quasi quis ab. Pariatur, laboriosam. Eligendi, molestiae ullam sequi dolor odit quidem quos explicabo accusamus.
+        Facilis voluptatum quisquam iusto in. Quidem deleniti autem alias voluptatum officia aperiam incidunt? Nam nostrum, modi et molestias non, ipsam fuga quaerat ea quae repudiandae quia quisquam. Necessitatibus, laudantium nemo.
+        Quibusdam recusandae ipsa voluptas alias est ad dicta corrupti in consectetur. Laborum dolorum dolores et aut consectetur placeat amet perspiciatis. Magni illo ea tempora omnis accusantium iusto perspiciatis obcaecati maxime!
+        Vel corporis odit ut ad, pariatur reprehenderit perspiciatis porro incidunt natus ab nemo enim officiis itaque illo quae magni! Labore facilis distinctio vitae voluptates odit quidem perspiciatis nisi soluta ipsum.
+
+      
+
+        
+
+    </div>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.first').click(function(){
+
+                $('h1').hide()
+            }
+
+
+            )
+
+
+                 $('.second').click(function(){
+
+                $('h2').hide()
+            }
+
+
+            )
+
+            
+                 $('#third').click(function(){
+
+                $('p').toggle()
+            }
+
+
+            )
+
+                 
+                 $('#fourth').click(function(){
+
+                $('ul').toggle()
+            }
+
+
+            )
+
+                    $('#fifth').click(function(){
+
+                $('h1').show()
+            }
+
+
+            )
+
+                       $('.two').click(function(){
+
+                $('.two').addClass('move')
+            }
+
+
+            )
+
+                           $('.dot').click(function(){
+
+                $('.two').removeClass('move')
+            }
+
+
+            )
+
+                               $('.three').click(function(){
+
+                $('.three').toggleClass('stop')
+            }
+
+
+            )
+
+
+        }
+
+
+        )
+    </script>
+
+
+
+</body>
+</html>

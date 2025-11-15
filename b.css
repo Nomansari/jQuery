@@ -1,0 +1,14 @@
+.move{
+    background-color: rgb(216, 14, 14);
+    transform: rotate(360deg);
+    transition: 1s ease;
+   
+
+
+
+}
+
+.stop{
+    background-color: greenyellow;
+    
+}
