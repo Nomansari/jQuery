@@ -1,1 +1,1 @@
-jQuery is a fast, small, and feature-rich JavaScript library designed to simplify client-side scripting of HTML. It adheres to the principle of "write less, do more," abstracting common, complex JavaScript tasks into concise, easy-to-use methods.
+jQuery is a fast, small, and feature-rich JavaScript library designed to simplify client-side scripting of HTML.<br> It adheres to the principle of "write less, do more," abstracting common, complex JavaScript tasks into concise, easy-to-use methods.
